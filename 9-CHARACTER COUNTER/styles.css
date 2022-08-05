@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    text-transform: capitalize;
+}
+
+h1{
+    color: darkslategray;
+    margin: 30px;
+}
+
+textarea{
+    width: 70%;
+    margin: 30px;
+    font-size: 1rem;
+}
+
+p{
+    font-size: 1.3rem;
+    margin: 30px;
+}
+
+#remaining-chars{
+    text-align: right;
+    margin-right: 30%;
+}
