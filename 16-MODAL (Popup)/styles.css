@@ -1,0 +1,60 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    /* margin: 0; */
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+button{
+    background-color: #4C3575;
+    border: 0;
+    outline: none;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+#modal-container{   
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100vw;
+    height: 100vh;    
+    pointer-events: none;
+}
+
+#modal-container.show{
+    /* display: block; */
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#modal-content{
+    width: 600px;
+    text-align: justify;
+    background-color: white;
+    padding: 30px 50px;
+    border-radius: 25px;
+    max-width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+

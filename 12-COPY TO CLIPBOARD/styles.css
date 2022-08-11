@@ -1,0 +1,20 @@
+
+*{
+ box-sizing: border-box;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#title{
+ font-size: 3rem;
+ color: rebeccapurple;
+}
+
+button{
+ border: 0;
+ outline: none;
+ background-color: rebeccapurple;
+ color: white;
+ border-radius: 5px;
+ padding: 5px 20px;
+}
+

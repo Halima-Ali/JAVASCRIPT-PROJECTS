@@ -1,0 +1,79 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+ display: flex;
+ height: 100vh;
+ align-items: center;
+ justify-content: center ;
+ text-align: center;
+}
+
+.content{
+ height: 50px;
+ width: 280px;
+ display: flex;
+ position: relative;
+}
+
+.content input{
+ height: 100%;
+ width: 100%;
+ border-radius:3px ;
+ border: 1px solid rebeccapurple;
+ padding-left: 60px;
+ font-size: 16px;
+ outline: none;
+ color: rebeccapurple;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content .lock{
+ position: absolute;
+ height: 50px;
+ width: 50px ;
+ background-color: rebeccapurple;
+ color: white;
+ line-height: 48px;
+ font-size: 20px;
+ border-radius: 5px 0 0 5px ;
+ border: 1px solid rebeccapurple;
+ /* overflow: hidden; */
+}
+
+input::placeholder{
+ color: #a6a6a6
+}
+
+.show-hide{
+ position: absolute;
+ right:15px; 
+ top: 50%;
+ transform: translateY(-50%);
+}
+
+.show-hide ion-icon{
+ font-size: 19px;
+ color: rebeccapurple;
+ cursor: pointer;
+ display: inline-block;
+}
+
+.show-hide #hide{
+ display: none;
+}
+
+.show-hide.active #show{
+  display: none;
+}
+
+.show-hide.active #hide {
+ display: inline-block;
+}
+
+/* input:valid .show-hide ion-icon{
+  display: block;
+} */
